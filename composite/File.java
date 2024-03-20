@@ -1,6 +1,6 @@
 package composite;
 
-// File.java
+
 public class File implements FileSystem {
     private String name;
 

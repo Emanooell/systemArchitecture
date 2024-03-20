@@ -1,9 +1,9 @@
 package composite;
 
-// Main.java
+
 public class Main {
     public static void main(String[] args) {
-        // Criando a estrutura do diretório
+     
         Directory root = new Directory("Root");
         Directory dir1 = new Directory("Dir1");
         Directory dir2 = new Directory("Dir2");
@@ -15,7 +15,7 @@ public class Main {
         root.add(file1);
         dir1.add(file2);
 
-        // Imprimindo a estrutura do diretório
+      
         root.print("");
     }
 }
